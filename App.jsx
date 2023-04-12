@@ -42,6 +42,7 @@ export default function App() {
       ></input>
       <br />
       <br />
+      <div className="allbutton">
       <div>
         <td>
           {' '}
@@ -83,6 +84,7 @@ export default function App() {
           {' '}
           <input value={counter} placeholder=" Your Answer"></input>
         </span>
+      </div>
       </div>
     </>
   );
