@@ -67,7 +67,7 @@ export default function App() {
         <td>
           <button type="button" onClick={HandleClear}>
             Clear
-          </button>
+          </button>  {' '}
         </td>
         <br />
         <br />
