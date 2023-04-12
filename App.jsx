@@ -18,6 +18,9 @@ export default function App() {
   const HandleDivide = () => {
     setCounter(Number(inputvalue) / Number(inputvalue2));
   };
+  const HandleMod = () => {
+    setCounter(Number(inputvalue) % Number(inputvalue2));
+  };
   const HandleClear = () => {
     setCounter('');
     setInputvalue('');
@@ -59,9 +62,14 @@ export default function App() {
           </button>{' '}
         </td>
         <td>
-          {' '}
+          
           <button type="button" onClick={HandleDivide}>
             /
+          </button>
+        </td>
+        <td>
+        <button type="button" onClick={HandleMod}>
+            MOD
           </button>{' '}
         </td>
         <td>
